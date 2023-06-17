@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.circle{
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    filter: drop-shadow(5px 5px 10px #555);
+}
